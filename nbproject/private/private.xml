@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Controllers/AdminLoginController.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/CSS/Style.css</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Controllers/LoginMentorController.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/GUI/AdminDashBoard.fxml</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/GUI/MesReservation.fxml</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Utils/SessionUser.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Controllers/MesReservationController.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Controllers/LoginClientController.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Entities/Client.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/CSS/Heavitas.ttf</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Services/MentorServices.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Entities/Evenement.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Services/ReservationService.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Entities/Reservation.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/GUI/LoginClient.fxml</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Utils/BCrypt.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Controllers/AjoutEvenementController.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/GUI/EvenementReservation.fxml</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Controllers/ReservationController.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Controllers/IndexController.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/pidev/PIDEV.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Services/EvenementServices.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/GUI/AjoutEvenement.fxml</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Services/AdminServices.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Entities/ClientTest.java</file>
+            <file>file:/C:/Users/MSI/Desktop/Proj/PIDEV/src/Controllers/AdminDashBoardController.java</file>
+        </group>
+    </open-files>
+</project-private>

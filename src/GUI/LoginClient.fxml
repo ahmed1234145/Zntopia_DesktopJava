@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="MentorPane" prefHeight="759.0" prefWidth="1260.0" styleClass="mainFxmlClass" stylesheets="@../CSS/Style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.LoginClientController">
+   <children>
+      <Pane id="PaneAdmin" layoutX="679.0" prefHeight="759.0" prefWidth="581.0" style="-fx-background-color: linear-gradient(#91e291 , #3f7a57);;" stylesheets="@../CSS/Style.css">
+         <children>
+            <ImageView fitHeight="465.0" fitWidth="481.0" layoutX="85.0" layoutY="147.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icons/illust.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane fx:id="paneLogin" layoutX="14.0" layoutY="131.0" prefHeight="595.0" prefWidth="599.0" style="-fx-background-color: white;">
+         <children>
+            <Label layoutX="14.0" layoutY="128.0" prefHeight="51.0" prefWidth="321.0" text="Welcome! ">
+               <font>
+                  <Font name="System Bold" size="33.0" />
+               </font>
+            </Label>
+            <VBox alignment="CENTER" layoutX="106.0" layoutY="189.0" prefHeight="322.0" prefWidth="389.0" spacing="45.0">
+               <children>
+                  <JFXTextField fx:id="username" focusColor="#3f7a57" labelFloat="true" prefHeight="40.0" prefWidth="324.0" promptText="USERNAME" />
+                  <JFXTextField fx:id="Matricule" focusColor="#3f7a57" labelFloat="true" prefHeight="40.0" promptText="Matricule" />
+                  <JFXButton fx:id="SignIn" onAction="#SignIN" prefHeight="40.0" prefWidth="150.0" stylesheets="@../CSS/Style.css" text="SIGN IN">
+                     <font>
+                        <Font name="System Bold" size="16.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </VBox>
+            <Label id="lblerror" layoutX="106.0" layoutY="14.0" prefHeight="20.0" prefWidth="389.0" textFill="#b22121">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <ImageView fitHeight="110.0" fitWidth="139.0" layoutX="245.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Icons/Logo%20final.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="btnBack" fitHeight="41.0" fitWidth="46.0" layoutX="31.0" layoutY="693.0" onMouseClicked="#handleMouseButton" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Icons/icons8_back_arrow_64px_1.png" />
+         </image>
+      </ImageView>
+      <HBox layoutX="7.0" layoutY="6.0" prefHeight="40.0" prefWidth="1247.0" spacing="10.0">
+         <children>
+            <ImageView fx:id="btnClose" fitHeight="20.0" fitWidth="20.0" onMouseClicked="#handleMouseButton" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icons/exit.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icons/reduce.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="btnReduce" fitHeight="20.0" fitWidth="20.0" onMouseClicked="#handleMouseButton" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Icons/grandir.png" />
+               </image>
+            </ImageView>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </HBox>
+   </children>
+</AnchorPane>
